@@ -1,0 +1,9 @@
+/* Hide Gift Button */
+[class^="channelTextArea"] [class^="buttons-"] > button {
+  display: none;
+}
+
+/* Hide Sticker Button */
+[class*="stickerButton-"] {
+  display: none;
+}
